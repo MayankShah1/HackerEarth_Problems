@@ -21,9 +21,9 @@ int main()
 				count++;
 			}
 			else
-            {
-                speed[i] = speed[i-1];
-            }
+            		{
+                		speed[i] = speed[i-1];
+            		}
 		}
 		cout<<count<<"\n";
 		testcases--;
